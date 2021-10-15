@@ -1,6 +1,7 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  padding: 0 40px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +10,11 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+// Smallest device
+@media (max-width: 768px) {
+  .navbar-lewagon {
+    padding: 0 16px;
+  }
 }
